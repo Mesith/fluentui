@@ -383,7 +383,7 @@ export class TextFieldBase extends React.Component<ITextFieldProps, ITextFieldSt
     if (label) {
       return (
         <Label required={required} htmlFor={this._id} styles={labelStyles} disabled={props.disabled} id={this._labelId}>
-          {'ccccccccc'}
+          {props.label}
         </Label>
       );
     }
